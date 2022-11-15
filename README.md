@@ -7,13 +7,42 @@
 </div>
 <br>
 
+<div align="center">
+   <a href="https://github.com/mgckaled">
+      <img alt="Made by mgckaled" src="https://img.shields.io/badge/made%20by-mgckaled-yellow">
+   </a>
+   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/mgckaled/ignite-nodejs_fundamentos">
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/mgckaled/ignite-nodejs_fundamentos">
+   <a href="https://github.com/mgckaled/ignite-nodejs_fundamentos/commits/main">
+      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/mgckaled/ignite-nodejs_fundamentos">
+   </a>  
+</div>
+<br>
+
+<div align="center">
+  <a>
+    <img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
+    <img alt="Insomnia" src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"/>
+  <a/>
+</div>
+
+<br>
+
 # Ignite Node.js - Fundamentos do Node.js
 
-## Conceitos Node.js
+<div align="center">
+
+[**Conceitos**](#conceitos) &nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Tecnologias**](#tecnologias) &nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Licença**](#licença)
+
+</div>
+
+## Conceitos
 
 ### O que é Node.js?
 
-- Plataforma ou ambiente open-source permite execução da linguagem javascript do lado do servidor. De acordo com sua definição oficial, o Node é um runtime, que nada mais é do que um conjunto de códigos, API's, ou seja, são bibliotecas responsáveis pelo tempo de execução (é o que faz o seu programa rodar) que funciona como um interpretador de JavaScript fora do ambiente do navegador web.
+- Plataforma ou ambiente open-source que permite execução da linguagem javascript do lado do servidor. De acordo com sua definição oficial, o Node é um runtime, que nada mais é do que um conjunto de códigos, API's, ou seja, são bibliotecas responsáveis pelo tempo de execução (é o que faz o seu programa rodar) que funciona como um interpretador de JavaScript fora do ambiente do navegador web.
 - Pricipalmente composto por 6 bibliotecas 3 ferramentas:
   - B1 **_v8_**: O V8 é o engine open-source de JavaScript e WebAssembly de alto desempenho do Google. Ele foi escrito em C++ e usado tanto no Chrome quanto em ambientes similares ao Chrome, e no Node.js. O V8 possui a implementação completa para ECMAScript e WebAssembly. Mas ele não depende de um navegador, na verdade, o V8 pode ser executado de forma independente e incorporado a qualquer aplicativo C++.
   - B2 **_libuv_**: libuv é uma biblioteca C originalmente escrita para Node.js para abstrair operações de I/O sem bloqueio. O modelo de I/O assíncrona orientada a eventos é integrado. Ele permite que a CPU e outros recursos sejam usados ​​simultaneamente enquanto ainda executam operações de I/O, resultando em uso eficiente de recursos e rede
@@ -131,5 +160,15 @@
 ## Tecnologias
 
 - `express`: o [Express](https://expressjs.com/pt-br/) é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel. Ele é um micro-framework e é focado na construção de APIs ou servidores HTTP que podem servir páginas estáticas.
-- `nodemon`: O [Nodemon](https://www.npmjs.com/package/nodemon) é uma biblioteca que ajuda no desenvolvimento de sistemas com o Node. js reiniciando automaticamente o servidor. Imagine a seguinte situação, você está desenvolvendo uma aplicação com o Node, e criou uma rota, para acessá-la, é preciso reiniciar o servidor.
-- `Insommia`: [Insomnia](https://insomnia.rest/) é um framework Open Source para desenvolvimento/teste de API Clients. Ele pode ser usado para envio de requisições REST, SOAP, GraphQ e GRPC. Com esta ferramenta torna-se possível realizar a documentação, automação e com a sua versão CLI tools é possível implementar testes em pipeline
+- `nodemon`: o [Nodemon](https://www.npmjs.com/package/nodemon) é uma biblioteca que ajuda no desenvolvimento de sistemas com o Node. js reiniciando automaticamente o servidor. Imagine a seguinte situação, você está desenvolvendo uma aplicação com o Node, e criou uma rota, para acessá-la, é preciso reiniciar o servidor.
+- `Insomnia`: [Insomnia](https://insomnia.rest/) é um framework Open Source para desenvolvimento/teste de API Clients. Ele pode ser usado para envio de requisições REST, SOAP, GraphQ e GRPC. Com esta ferramenta torna-se possível realizar a documentação, automação e com a sua versão CLI tools é possível implementar testes em pipeline
+
+## Licença
+
+Distribuído sob a licença _MIT_. Veja [LICENSE](LICENSE) para mais informações.
+
+---
+
+<h5 align="center">
+  &copy;2022 - <a href="https://github.com/mgckaled/">Marcel Kaled</a>
+</h5>
