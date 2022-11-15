@@ -32,13 +32,14 @@
 
 <div align="center">
 
-[**Conceitos**](#conceitos) &nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Conceitos Node**](#conceitos-node) &nbsp;&nbsp;**•**&nbsp;&nbsp;
+[**Conceitos API Rest**](#conceitos-api-rest) &nbsp;&nbsp;**•**&nbsp;&nbsp;
 [**Tecnologias**](#tecnologias) &nbsp;&nbsp;**•**&nbsp;&nbsp;
 [**Licença**](#licença)
 
 </div>
 
-## Conceitos
+## Conceitos Node
 
 ### O que é Node.js?
 
@@ -130,7 +131,7 @@
 
 > Qual a diferença entre stateless e Stateful? - A diferença mais importante é que o stateless é um widget estático, ou seja, não temos como gerenciar o estado dele. E o stateful é completamente dinâmico e nos dá o poder de torná-lo mutável através da gerência de estados
 
-## Métodos de Requisições - HTTP Verbs
+### Métodos de Requisições - HTTP Verbs
 
 - `GET` - Leitura
 - `POST` - Criação
@@ -138,7 +139,7 @@
 - `DELETE` - Deleção
 - `PATCH` - Atualização parcial
 
-## HTTP Codes
+### HTTP Codes
 
 - `1XX`: Informativo - a solicitação foi aceita ou o processo continua em andamento.
 - `2XX`: Confirmação
@@ -156,6 +157,48 @@
 - `5XX`: Erro no Servidor - O servidor falhou ao concluir a solicitação
   - `500` - Internal Server Error
   - `502` - Bad Gateway
+
+### Parâmetros das Requisições
+
+- **Header Params**
+
+```bash
+authority: app.rocketseat.com.br
+method: GET
+path: /api/journey-nodes
+scheme: https
+referer: https://app.rocketseat.com.br/node
+```
+
+- **Query Params**
+  <http://enderecoservidor.com.br/v1/users?page=2&limit=50>
+
+  - `page`, `limit` = Chave
+  - `2`, `5` = Valor
+  - `&` = Separação
+
+- **Route Params**
+  <http://enderecoservidor.com.br/v1/users/>`{id}`
+
+- **Body Params**
+
+```json
+{
+	"name": "Marcel",
+	"username": "mgckaled"
+}
+```
+
+### Boas Práticas API Rest
+
+- A utilização correta dos métodos HTTP
+- A utilização correta dos status no retorno das respostas
+- Padrão de nomenclatura
+  - Busca de usuários - GET: <http://enderecoservidor.com.br/v1/users>
+  - Busca de usuário por id - GET: <http://enderecoservidor.com.br/v1/users/1>
+  - Busca de endereço de usuário - GET: <http://enderecoservidor.com.br/v1/users/1/address>
+  - Deleção de um usuário - DELETE: <http://enderecoservidor.com.br/v1/users/1>
+  - Atualização do status do usuário - PATCH: <http://enderecoservidor.com.br/v1/users/status>
 
 ## Tecnologias
 
